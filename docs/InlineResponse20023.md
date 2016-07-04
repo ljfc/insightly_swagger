@@ -1,0 +1,16 @@
+# SwaggerClient::InlineResponse20023
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**responsible_user_id** | **Integer** | ID of the user that is responsible for the milestone. | [optional] 
+**due_date** | **DateTime** | Date when milestone is due. | [optional] 
+**milestone_id** | **Integer** | Unique ID for the Milestone record. | [optional] 
+**project_id** | **Integer** | Unique ID for the Project record the milestone is assigned to. | [optional] 
+**completed_date_utc** | **DateTime** | Date and time when the milestone was completed (Coordinated Universal Time). | [optional] 
+**date_updated_utc** | **DateTime** | Date and time the Milestone record was updated, as Coordinated Universal Time | [optional] 
+**completed** | **BOOLEAN** | True if milestone is completed. | [optional] 
+**date_created_utc** | **DateTime** | Date and time the Milestone record was created, as Coordinated Universal Time | [optional] 
+**title** | **String** | Title of the milestone. | [optional] 
+
+
